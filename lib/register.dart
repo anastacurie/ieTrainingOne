@@ -67,7 +67,10 @@ class _RegisterRouteState extends State<RegisterRoute> {
                     //crossAxisAlignment: WrapCrossAlignment.center,
                     children: [
                       ElevatedButton(
-                        onPressed: () {},
+                        onPressed: () {
+                          String fullname = fullnameTE.text;
+                          print("The fullname is $fullname");
+                        },
                         child: const Text("Register"),
                       ),
                       ElevatedButton(
