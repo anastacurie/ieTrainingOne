@@ -30,7 +30,12 @@ class _RegisterRouteState extends State<RegisterRoute> {
                 child: TextField(
                   controller: fullnameTE,
                   decoration: const InputDecoration(
-                      hintText: "Fullname", fillColor: Colors.white),
+                    hintText: "Fullname",
+                    fillColor: Colors.white,
+                    isDense: true,
+                    contentPadding: EdgeInsets.all(5),
+                    enabledBorder: InputBorder.none,
+                  ),
                 ),
               ),
               Container(
@@ -41,7 +46,12 @@ class _RegisterRouteState extends State<RegisterRoute> {
                 child: TextField(
                   controller: emailTE,
                   decoration: const InputDecoration(
-                      hintText: "email", fillColor: Colors.white),
+                    hintText: "email",
+                    fillColor: Colors.white,
+                    isDense: true,
+                    contentPadding: EdgeInsets.all(5),
+                    enabledBorder: InputBorder.none,
+                  ),
                 ),
               ),
               Container(
@@ -52,7 +62,12 @@ class _RegisterRouteState extends State<RegisterRoute> {
                 child: TextField(
                   controller: passwordTE,
                   decoration: const InputDecoration(
-                      hintText: "Password", fillColor: Colors.white),
+                    enabledBorder: InputBorder.none,
+                    hintText: "Password",
+                    fillColor: Colors.white,
+                    isDense: true,
+                    contentPadding: EdgeInsets.all(5),
+                  ),
                   obscureText: true,
                 ),
               ),

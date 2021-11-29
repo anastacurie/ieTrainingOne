@@ -4,7 +4,7 @@ import './login.dart';
 
 void main() {
   runApp(
-    MaterialApp(
+    const MaterialApp(
       debugShowCheckedModeBanner: false,
       home: RegisterRoute(),
     ),
